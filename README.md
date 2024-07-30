@@ -1,2 +1,2 @@
 # HTML-CSS
-Học về HTML và CSS ở mức độ cơ bản
+Tôi đang học về HTML và CSS ở mức độ cơ bản
