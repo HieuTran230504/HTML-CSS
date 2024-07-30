@@ -1,4 +1,15 @@
 h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+#first-Heading { /* id selector */
+    color: teal;
+    font-size: 35px;
+}
+
+.second-Heading { /* class selector */
     color: red;
-    font-size: 20px;
+    font-size: 30px;
+    font-style: italic;
 }
