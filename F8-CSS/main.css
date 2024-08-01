@@ -1,5 +1,5 @@
 * {
-    color: goldenrod;
+    font-style: italic;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
     font-size: 50px;
 }
 
-h3.second-Heading {
+h4.second-Heading {
     color: blue;
     font-size: 30px;
 }
@@ -30,4 +30,13 @@ h3.second-Heading {
 
 .box .second-Heading { /* descendant selector */
     color: purple;
+}
+
+div.box > h2{
+    text-decoration: underline;
+}
+
+div.box  p{
+    font-style: italic;
+    text-decoration: underline;
 }
