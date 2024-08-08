@@ -2,11 +2,6 @@
     font-style: italic;
 }
 
-h1 {
-    color: gray;
-    font-size: 50px;
-}
-
 h4.second-Heading {
     color: blue;
     font-size: 30px;
@@ -39,4 +34,14 @@ div.box > h2{
 div.box  p{
     font-style: italic;
     text-decoration: underline;
+}
+
+:root { /*Variable in CSS*/
+    --text-color: blue;
+}
+
+h1 {
+    --my-color: green;
+    color: var(--my-color);
+    font-size: 50px;
 }
