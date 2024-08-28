@@ -1,0 +1,46 @@
+* {
+    font-style: italic;
+}
+
+h4.second-Heading {
+    color: blue;
+    font-size: 30px;
+}
+
+#first-Heading { /* id selector */
+    color: teal;
+    font-size: 35px;
+}
+
+.second-Heading { /* class selector */
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.second-Heading.third-Heading{ /* multiple class selector */
+    color: green;
+    font-style: normal;
+}
+
+.xx .second-Heading { /* descendant selector */
+    color: purple;
+}
+
+div.xx > h2{
+    text-decoration: underline;
+}
+
+div.xx  p{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+:root { /*Variable in CSS*/
+    --text-color: blue;
+}
+
+h1 {
+    --my-color: green;
+    color: var(--my-color);
+}

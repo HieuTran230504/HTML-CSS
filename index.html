@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>F8 - Shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <!-- <style>
+            h1 {
+                color: red;
+                font-size: 20px;
+            }
+        </style> -->
+        <style>
+            .box {
+                height: 120px;
+                width: 100%;
+                background: blue;
+            }
+
+            .box::before {
+                content: "Xin chao";
+                color: red;
+                text-decoration: underline;
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: white;
+            }
+
+            .box::after {
+                content: "Tam biet";
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: white;
+            }
+
+            h1::selection {
+                background-color: violet;
+                color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <h1>CSS in HTML? <br/> Bai hoc hom nay</h1>
+            <ol>
+                <li>Hello Internal</li>
+                <li>Hello External</li>
+                <li>Hello Inline</li>
+            </ol>
+        </div>
+
+        <!--CSS selectors-->
+        <div> <!--ID va Class-->
+            <h2 id="first-Heading">CSS selectors1?</h2>
+            <h2 class="second-Heading">CSS selectors2?</h2>
+            <h2 class="second-Heading third-Heading">CSS Hello</h2>
+            <h3 class="second-Heading">ID & Class</h3>
+            <h4 class="second-Heading">Konochiwa</h3>
+        </div>
+
+        <div class="xx">
+            <h2 class="first-Heading">CSS Bye1</h2>
+            <h3 class="second-Heading">CSS Bye2</h3>
+            <div>
+                <h2>Hiiiiii</h2>
+            </div>
+        </div>
+        <p>123</p>
+        <p>456</p>
+        
+    </body>
+</html>
